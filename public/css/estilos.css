@@ -1,0 +1,86 @@
+/*GLOBAL*/
+
+:root{
+    --colorPrimario: #18181b;
+    --colorPrimarioII: #FFF;
+    --colorSecundario: #01A9B4;
+    --colorSecundarioII: #FF3052;
+
+    --fuentePrincipal: "MiFuente", sans-serif;
+    --fuenteSecundaria: "MiFuente2", sans-serif;
+   
+}
+
+@font-face {
+    font-family: 'MiFuente';
+    src: url('../fonts/Rounded\ Elegance\ Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MiFuente2';
+    src: url('../fonts/VersatyloRoundedPersonalUseOnly.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html {
+    box-sizing: border-box;
+       
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+}
+body{
+    font-family: var(--fuentePrincipal);
+}
+.fuenteSecundaria{
+    font-family: var(--fuenteSecundaria);
+}
+img{
+    width: 100%;
+}
+
+/*Navegacion*/
+
+.navegacion__link{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 1.5rem 2.8rem;
+    display: block;
+}
+.navegacion__link:hover{
+    background-color: #333333;
+}
+
+@media (min-width: 1024px) {
+    .navegacion__link{
+        width: auto;
+    }
+}
+
+/*HERO*/
+.hero, .banner{
+    background-position: bottom;
+    background-size:cover ;
+    background-repeat: no-repeat;
+}
+.hero{
+    background-image: url("../images/image_22.jpeg");
+}
+
+.banner--bg_1{
+    background-image: url("../propiedades/id_2/4.jpg");
+}
+
+
+.banner--bg_2{
+    background-image: url("../images/image_2.jpg");
+}
+
+.banner--bg_3{
+    background-image: url("../images/image_19.jpg");
+}
