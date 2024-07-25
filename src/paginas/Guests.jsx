@@ -1,12 +1,11 @@
-import Navegacion from "../layout/Navegacion"
-import HeaderGeneral from "../layout/HeaderGeneral"
+import HeaderPrincipal from "../layout/HeaderPrincipal"
 import BannerBeyond from "../layout/BannerBeyond"
+
 const Guests = () => {
   return (
     <>
-      <Navegacion />
-      <HeaderGeneral
-        pagina="guests"
+      <HeaderPrincipal
+        
       />
       <section className="bg-gray-200 py-10">
         <div className="w-10/12 m-auto grid grid-cols-1 gap-5 items-center md:grid-cols-3">

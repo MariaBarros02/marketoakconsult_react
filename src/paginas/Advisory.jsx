@@ -1,15 +1,10 @@
-import Navegacion from "../layout/Navegacion"
 import HeaderPrincipal from "../layout/HeaderPrincipal"
-import HeaderGeneral from "../layout/HeaderGeneral"
 import Footer from "../layout/Footer"
 import BannerBeyond from "../layout/BannerBeyond"
 const Advisory = () => {
   return (
     <>
-      <Navegacion />
-      <HeaderGeneral 
-        pagina="advisory"
-      />
+      <HeaderPrincipal/>
       <section className="bg-gray-200 py-10">
         <div className="w-10/12 m-auto grid grid-cols-1 gap-8 items-center md:grid-cols-2">
           <img src="/images/image_20.jpg" alt="advisory" className="rounded-full w-3/6 m-auto lg:col-start-2" />
