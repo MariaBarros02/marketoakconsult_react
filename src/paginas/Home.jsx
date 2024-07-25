@@ -13,14 +13,13 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <Navegacion />
       <HeaderPrincipal />
 
-      <section className="bg-zinc-900 py-10">
+      <section className="bg-zinc-200 py-10">
         <div className="w-10/12 m-auto grid grid-cols-1 justify-center items-center gap-5 lg:grid-cols-2 ">
-          <div className="text-white">
+          <div className="">
             <h2 className="uppercase  text-5xl font-bold  mb-5" >
-              Here is your <span class="text-rose-600">next home </span>for when you travel...</h2>
+              Here is your <span className="text-rose-600">next home </span>for when you travel...</h2>
             <p className="text-lg">
               Our accommodations provide everything you need to rest and relax because we have efficient Wi-Fi
               connections, water and electricity
@@ -75,8 +74,8 @@ const Home = () => {
         </div>
       </section>
 
-      <section class="banner banner--bg_2 ">
-        <div class="bg-zinc-900 bg-opacity-70 text-white py-20 flex flex-col justify-center items-center text-center">
+      <section className="banner banner--bg_2 ">
+        <div className="bg-zinc-900 bg-opacity-70 text-white py-20 flex flex-col justify-center items-center text-center">
           <p className="text-xl lg:text-3xl font-bold uppercase w-8/12 m-auto ">Have you liked any of our accommodations? We invite you to contact us to rent your favorite one.</p>
           <Button className="mt-5 bg-zinc-950" color="dark" size="lg" href="mailto:admin@marketoakconsult.com" >CONTACT US</Button>
         </div>
@@ -92,9 +91,9 @@ const Home = () => {
               Our properties are designed to provide comfort for families and groups. With ample space and top-notch amenities, you can relax and enjoy your vacation to the fullest.
             </p>
           </div>
-          <div class="text-2xl font-semibold italic text-center mb-5 ">
-            <p class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-rose-600 relative inline-block">
-              <span class="relative text-white text-6xl px-2">AND</span>
+          <div className="text-2xl font-semibold italic text-center mb-5 ">
+            <p className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-rose-600 relative inline-block">
+              <span className="relative text-white text-6xl px-2">AND</span>
             </p>
            
           </div>

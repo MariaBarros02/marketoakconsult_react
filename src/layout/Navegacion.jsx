@@ -31,17 +31,13 @@ function Navegacion() {
 
   return (
     <>
-      <div className="bg-zinc-900 text-white flex flex-col lg:flex-row lg:justify-between lg:items-center lg:px-2 ">
-        <div className="m-auto lg:m-0 ">
-          <div className="hidden lg:block">
-            <img className=" w-16" src="images/logo_1.png" alt="logo" />
-          </div>
+      <div className="bg-transparent -mt-16 mb-10 text-white flex flex-col lg:flex-row lg:justify-between lg:items-center  ">
+        <div className="m-auto lg:m-0 lg:hidden">
           <div className="text-4xl py-3 lg:hidden " id="btn-menu">
             <a href="/" >☰</a>
           </div>
-
-        </div>
-        <nav className="hidden  flex-col lg:flex lg:flex-row" id="menu">
+        </div> 
+        <nav className="hidden  flex-col lg:flex lg:flex-row lg:justify-between lg:w-full *:py-2 lg:*:py-5 *:w-full" id="menu">
           <Link className="navegacion__link" to="/">Home</Link>
           <Link className="navegacion__link" to="/advisory">Advisory</Link>
           <Link className="navegacion__link" to="/guests">Guests</Link>

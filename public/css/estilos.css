@@ -47,13 +47,11 @@ img{
 
 .navegacion__link{
     text-align: center;
-    width: 100%;
     margin: auto;
-    padding: 1.5rem 2.8rem;
     display: block;
 }
 .navegacion__link:hover{
-    background-color: #333333;
+    background-color: #20202044;
 }
 
 @media (min-width: 1024px) {
