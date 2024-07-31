@@ -4,12 +4,14 @@ import BannerBeyond from "../layout/BannerBeyond"
 const Advisory = () => {
   return (
     <>
-      <HeaderPrincipal/>
+      <HeaderPrincipal
+        imagen="4"
+      />
       <section className="bg-gray-200 py-10">
         <div className="w-10/12 m-auto grid grid-cols-1 gap-8 items-center md:grid-cols-2">
-          <img src="/images/image_20.jpg" alt="advisory" className="rounded-full w-3/6 m-auto lg:col-start-2" />
-          <div className="row-start-1 text-center md:text-left" >
-            <h2 className="text-4xl font-bold uppercase mb-3 lg:text-6xl "><span className="text-rose-600">Advisory</span> Services</h2>
+          <img src="/images/image_20.jpg" alt="advisory" className="rounded-full lg:w-3/6 m-auto lg:col-start-2" />
+          <div className="row-start-1 text-center " >
+            <h2 className="text-5xl font-bold uppercase mb-3 lg:text-6xl "><span className="text-rose-600">Advisory</span> Services</h2>
             <p className="">Welcome to our Advisory Services section, where we
               provide expert guidance in two crucial areas:
               Credit Advisory and Business Creation Advisory. Whether you're looking to secure financing or
@@ -34,7 +36,7 @@ const Advisory = () => {
           <div className="w-10/12 m-auto">
             <div className="text-center">
               <p className="py-4 px-8 text-4xl font-bold rounded-full bg-white inline-block">1</p>
-              <div  className="bg-zinc-950 text-white p-5 pt-10 -mt-8 w-4/12 m-auto">
+              <div  className="bg-zinc-950 text-white p-5 pt-10 -mt-8 md:w-4/12 m-auto">
                 <h3 className="text-xl font-bold tracking-widest">CREDIT SCORE ANALYSIS</h3>
                 <p className="text-lg leading-tight">We provide a detailed analysis of your current credit score and offer personalized advice on how to improve it.</p>
               </div>
@@ -45,6 +47,7 @@ const Advisory = () => {
         </div>
       </section>
       <BannerBeyond />
+      
       <Footer />
     </>
   )

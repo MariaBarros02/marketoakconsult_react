@@ -13,7 +13,9 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <HeaderPrincipal />
+      <HeaderPrincipal 
+        imagen="3"
+      />
 
       <section className="bg-zinc-200 py-10">
         <div className="w-10/12 m-auto grid grid-cols-1 justify-center items-center gap-5 lg:grid-cols-2 ">
@@ -43,7 +45,7 @@ const Home = () => {
             <CardFoto
               imagen="/propiedades/id_1/4.jpg"
               titulo="San Francisco, California: SoMa"
-              clasesTitulo="text-rose-600  "
+              clasesTitulo="text-rose-600  text-xl"
               parrafo="Our property offers strategic access to iconic sites like China Town,
               Haight-Ashbury'sbohemian energy and Little Italy's fresh coffee
               aroma."
@@ -51,13 +53,13 @@ const Home = () => {
             <CardFoto
               imagen="/propiedades/id_2/3.jpg"
               titulo="San Francisco, California: Cozy & Complete"
-              clasesTitulo="text-cyan-600 "
+              clasesTitulo="text-cyan-600 text-xl"
               parrafo="Discover the charm of San Francisco in our cozy apartment, ideally located near the
               illuminated Bay Bridge and the dynamic SOMA district."
             />
             <CardFoto
               imagen="/propiedades/id_3/5.jpg"
-              clasesTitulo="text-rose-600 "
+              clasesTitulo="text-rose-600 text-xl"
               titulo="San Francisco, California: Comfy Retreat"
               parrafo="Just steps from local attractions and with easy access to transport, it's the ideal
               starting point for exploring the city."
@@ -82,7 +84,7 @@ const Home = () => {
       </section>
       
 
-      <section className="py-16 bg-gray-100 ">
+      <section className="py-16 bg-zinc-200 ">
         <h2 className="text-center uppercase text-3xl w-10/12 m-auto font-bold lg:text-5xl"> <span className="text-rose-600">Empower </span>Your <span className="text-cyan-500">vacations</span> with us because</h2>
         <div className="w-9/12 m-auto grid grid-cols-1 gap-3 lg:grid-cols-3 lg:items-center text-center">
           <div className="my-3">

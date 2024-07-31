@@ -66,9 +66,38 @@ img{
     background-size:cover ;
     background-repeat: no-repeat;
 }
-.hero{
+.hero--bg_1{
     background-image: url("../images/image_22.jpeg");
 }
+.hero--bg_2{
+    background-image: url("../images/image_23.jpeg");
+    background-position: center;
+}
+
+.hero--bg_3{
+    background-image: url("../images/image_5.jpg");
+    background-position: center;
+}
+.hero--bg_4{
+    background-image: url("../images/image_19.jpg");
+    background-position: center;
+
+}
+
+.hero--bg_5{
+    background-image: url("../images/image_13.jpg");
+    background-position: bottom;
+
+}
+.hero--bg_6{
+    background-image: url("../images/image_24.jpg");
+}
+
+.hero--bg_7{
+    background-image: url("../images/image_28.jpg");
+}
+
+
 
 .banner--bg_1{
     background-image: url("../propiedades/id_2/4.jpg");
@@ -81,4 +110,26 @@ img{
 
 .banner--bg_3{
     background-image: url("../images/image_19.jpg");
+}
+
+
+.banner--bg_4{
+    background-image: url("../images/image_24.jpg");
+}
+
+/*GUEST*/
+.guest__carousel{
+    height: 40rem;
+}
+
+@media (min-width: 768px) {
+    .guest__carousel{
+        height: 28rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .guest__carousel{
+        height: 24rem;
+    }
 }

@@ -3,10 +3,10 @@ const Footer = () => {
     return (
 
         <>
-            <footer className="bg-zinc-950 text-white text-sm  flex flex-col py-2 lg:flex-row lg:justify-between lg:items-center lg:px-12">
+            <footer className="bg-zinc-950 text-white text-sm  flex flex-col py-5 lg:flex-row lg:justify-between lg:items-center lg:px-12">
 
                 <div className="m-auto lg:m-0">
-                    <img className="h-36" src="images/logo_4.png" alt="logo" />
+                    <img className="h-36" src="/images/logo_4.png" alt="logo" />
 
                 </div>
                 <div className=" text-center">

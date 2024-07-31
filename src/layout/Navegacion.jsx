@@ -31,7 +31,7 @@ function Navegacion() {
 
   return (
     <>
-      <div className="bg-transparent -mt-16 mb-10 text-white flex flex-col lg:flex-row lg:justify-between lg:items-center  ">
+      <div className="bg-transparent mb-10 text-white flex flex-col lg:flex-row lg:justify-between lg:items-center  ">
         <div className="m-auto lg:m-0 lg:hidden">
           <div className="text-4xl py-3 lg:hidden " id="btn-menu">
             <a href="/" >☰</a>
