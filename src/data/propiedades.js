@@ -19,7 +19,7 @@ const propiedades =[
         habitaciones: "King-size bed, two twin-size beds, a double-size bed, pillows, sheets, and bedding, closet with hangers and shelves, bedside table with reading lamp, large windows with curtains",
         sala: "Three comfortable sofas with pillows, smart TV, stylish coffee table, large window, decorative paintings, good lighting",
         imagenes:[1,2,3,4,5,6,7],
-        link: "#"
+        link: "https://www.airbnb.com/slink/8Ac8ZKAW"
     }, 
     {
         id:3,
@@ -30,7 +30,7 @@ const propiedades =[
         habitaciones: "King-size bed, A bunked bed, A double-size bed, pillows, sheets, and bedding, closet with hangers and shelves, bedside table with reading lamp, large windows with curtains",
         sala: "A comfortable sofa with pillows, smart TV, stylish coffee table, large window, decorative paintings, good lighting",
         imagenes: [1,2,3,4,5,6],
-        link: "#"
+        link: "https://www.airbnb.com/slink/cV9lfclh"
 
     }
 ]
