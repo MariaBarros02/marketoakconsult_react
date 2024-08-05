@@ -39,7 +39,7 @@ const Home = () => {
 
       </section>
      
-      <section className="bg-zinc-100 py-10">
+      <section className=" py-10">
         <div className="w-10/12 m-auto lg:w-11/12">
           <div className="my-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-5">
             <CardFoto

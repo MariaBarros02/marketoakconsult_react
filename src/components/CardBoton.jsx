@@ -5,17 +5,17 @@ const CardBoton = ({imagen, titulo, parrafo, boton, link}) => {
     return (
         <>
             <Card
-                className="max-w-sm m-auto lg:mx-3 h-full"
+                className="max-w-sm m-auto bg-zinc-50 lg:mx-3 h-full"
                 imgAlt="Meaningful alt text for an image that is not purely decorative"
                 imgSrc={imagen}
             >
-                <p className="font-bold text-2xl text-rose-600">
+                <p className="font-bold text-xl text-rose-600">
                     {titulo}
                 </p>
                 <p className="font-normal text-sm">
                     {parrafo}
                 </p>
-                <Button className="bg-cyan-500 font-bold " color="dark" size="xl" as={Link} to={link}>
+                <Button className="bg-cyan-600 font-bold " color="dark" size="xl" as={Link} to={link}>
                     {boton}
                 </Button>
             </Card>
