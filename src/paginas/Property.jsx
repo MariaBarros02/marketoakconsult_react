@@ -73,13 +73,13 @@ const Property = () => {
       <section className=" py-10">
         <div className="w-10/12 m-auto">
           <p className="text-4xl font-bold my-5">During this stay, you will <span className="text-cyan-600"> be able to</span> enjoy...</p>
-          <Timeline horizontal>
+          <Timeline horizontal >
             <Timeline.Item>
               <Timeline.Point />
               <Timeline.Content>
-                <Timeline.Time>Living Room</Timeline.Time>
+                <Timeline.Time className="text-zinc-700">Living Room</Timeline.Time>
                 <Timeline.Title className=" font-bold text-xl">The living room is a great place to enjoy fun and memorable moments after a busy day or outing.</Timeline.Title>
-                <Timeline.Body >
+                <Timeline.Body className="text-zinc-700" >
                   {sala}
                 </Timeline.Body>
 
@@ -88,9 +88,9 @@ const Property = () => {
             <Timeline.Item>
               <Timeline.Point />
               <Timeline.Content>
-                <Timeline.Time>Bedroom</Timeline.Time>
+                <Timeline.Time className="text-zinc-700">Bedroom</Timeline.Time>
                 <Timeline.Title>Rest in one of these comfortable rooms, carefully designed and furnished to provide everything you need</Timeline.Title>
-                <Timeline.Body>
+                <Timeline.Body className="text-zinc-700">
                   {habitaciones}
                 </Timeline.Body>
               </Timeline.Content>
@@ -98,9 +98,9 @@ const Property = () => {
             <Timeline.Item>
               <Timeline.Point />
               <Timeline.Content>
-                <Timeline.Time>Kitchen</Timeline.Time>
-                <Timeline.Title>Equipped kitchen feactures a wide range of top-notch appliances, spacious granite countertops with a central island</Timeline.Title>
-                <Timeline.Body>
+                <Timeline.Time className="text-zinc-700">Kitchen</Timeline.Time>
+                <Timeline.Title className="text-zinc-700">Equipped kitchen feactures a wide range of top-notch appliances, spacious granite countertops with a central island</Timeline.Title>
+                <Timeline.Body className="text-zinc-700">
                   Microwave oven, stove, refrigerator/freezer, coffee maker, trays, glasses, cutlery, pots and pans
                 </Timeline.Body>
               </Timeline.Content>
@@ -108,9 +108,9 @@ const Property = () => {
             <Timeline.Item>
               <Timeline.Point />
               <Timeline.Content>
-                <Timeline.Time>Bathroom</Timeline.Time>
-                <Timeline.Title>The aparment features a relaxing bathroom with clean towels and basic toiletries to ensure maximum comfort and convenience.</Timeline.Title>
-                <Timeline.Body>
+                <Timeline.Time className="text-zinc-700">Bathroom</Timeline.Time>
+                <Timeline.Title >The aparment features a relaxing bathroom with clean towels and basic toiletries to ensure maximum comfort and convenience.</Timeline.Title>
+                <Timeline.Body className="text-zinc-700"> 
                   Shower, vanity, mirror, toilet, towels, essential toiletries
                 </Timeline.Body>
               </Timeline.Content>

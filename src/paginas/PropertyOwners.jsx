@@ -38,7 +38,7 @@ const PropertyOwners = () => {
                                     <Timeline.Content>
                                         <Timeline.Time>Introduction to Our Services</Timeline.Time>
                                         <Timeline.Title>Maximized Occupancy Rates</Timeline.Title>
-                                        <Timeline.Body>
+                                        <Timeline.Body className="text-zinc-700">
                                             We leverage advanced marketing strategies and a vast network to ensure your property reaches a broad audience. Our platform attracts a diverse range of guests, from tourists to business travelers, guaranteeing high occupancy rates throughout the year. By listing your property with us, you can rest assured that it will be in high demand.
                                         </Timeline.Body>
                                     </Timeline.Content>
@@ -48,7 +48,7 @@ const PropertyOwners = () => {
                                     <Timeline.Content>
                                         <Timeline.Time>Service Setup</Timeline.Time>
                                         <Timeline.Title>Comprehensive Property Management</Timeline.Title>
-                                        <Timeline.Body>
+                                        <Timeline.Body className="text-zinc-700">
                                             Our dedicated property management team takes care of every detail, from guest communication to maintenance and cleaning services. We conduct regular inspections to maintain the highest standards, ensuring your property remains in pristine condition. This allows you to enjoy the benefits of rental income without the hassle of day-to-day management.
                                         </Timeline.Body>
                                     </Timeline.Content>
@@ -58,7 +58,7 @@ const PropertyOwners = () => {
                                     <Timeline.Content>
                                         <Timeline.Time>Maximizing Your Earnings</Timeline.Time>
                                         <Timeline.Title>Competitive Earnings</Timeline.Title>
-                                        <Timeline.Body>
+                                        <Timeline.Body className="text-zinc-700">
                                             Our dynamic pricing models and expert market analysis help you achieve the best possible returns on your investment. We continuously monitor market trends and adjust pricing to maximize your earnings while staying competitive. Additionally, our transparent fee structure ensures you understand exactly how your income is calculated, providing peace of mind and financial clarity.
                                         </Timeline.Body>
                                     </Timeline.Content>
@@ -68,7 +68,7 @@ const PropertyOwners = () => {
                                     <Timeline.Content>
                                         <Timeline.Time>Ongoing Support</Timeline.Time>
                                         <Timeline.Title>Expert Property Management</Timeline.Title>
-                                        <Timeline.Body>
+                                        <Timeline.Body className="text-zinc-700">
                                             Our experienced property management team takes care of every detail, from guest check-in and check-out to regular maintenance and cleaning. We ensure your property is always in top condition, providing a seamless experience for both you and your guests. Our team is available 24/7 to handle any issues that may arise, giving you peace of mind.
                                         </Timeline.Body>
                                     </Timeline.Content>

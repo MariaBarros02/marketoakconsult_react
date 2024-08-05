@@ -25,7 +25,7 @@ const AboutUs = () => {
         </div>
       </section>
       <section className=" py-10">
-        <div className="grid grid-cols-1 w-10/12 m-auto text-center md:grid-cols-2 ">
+        <div className="grid grid-cols-1 w-10/12 m-auto text-center md:grid-cols-2 gap-5 ">
           <CardFoto
             imagen="/images/image_8.jpg"
             titulo="MISSION"
