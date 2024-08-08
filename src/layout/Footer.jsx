@@ -21,7 +21,7 @@ const Footer = () => {
                             <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
                             <path d="M3 7l9 6l9 -6" />
                         </svg>
-                        <p className="px-3 "> mmv@medinamarketingbusiness.com</p>
+                        <p className="px-3 "> admin@marketoakconsult.com</p>
                     </div>
                     <div className="flex items-center justify-center py-1">
                         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-building" width="20"
@@ -37,7 +37,7 @@ const Footer = () => {
                             <path d="M14 16l1 0" />
                             <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16" />
                         </svg>
-                        <p className="px-3"> 611 Wilshire Blvd Suite 900 #1008,<br /> Los Angeles CA 90017</p>
+                        <p className="px-3">2603 Camino Ramón, Ste. 200<br /> San Ramon, CA 94583</p>
                     </div>
                     <div className="flex items-center justify-center py-1">
                         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-phone" width="20"
@@ -47,7 +47,7 @@ const Footer = () => {
                             <path
                                 d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
                         </svg>
-                        <p className="px-3">(800) 769-6835</p>
+                        <p className="px-3">888-383-4390</p>
 
                     </div>
                 </div>
