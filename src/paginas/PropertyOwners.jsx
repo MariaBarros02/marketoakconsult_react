@@ -1,6 +1,5 @@
 import HeaderPrincipal from "../layout/HeaderPrincipal"
 import Footer from "../layout/Footer"
-import BannerBeyond from "../layout/BannerBeyond"
 import { Button, Timeline } from "flowbite-react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Space from "../components/Space";
@@ -88,7 +87,6 @@ const PropertyOwners = () => {
                 </div>
 
             </section>
-            <BannerBeyond />
             <Footer />
         </>
     )

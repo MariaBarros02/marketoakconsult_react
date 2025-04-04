@@ -1,7 +1,6 @@
 import HeaderPrincipal from "../layout/HeaderPrincipal";
 import CardBoton from "../components/CardBoton";
 import propiedades from "../data/propiedades";
-import BannerBeyond from "../layout/BannerBeyond"
 import Footer from "../layout/Footer"
 
 const Properties = () => {
@@ -30,7 +29,6 @@ const Properties = () => {
           ))}
         </div>
       </section>
-      <BannerBeyond/>
       <Footer/>
     </>
 
