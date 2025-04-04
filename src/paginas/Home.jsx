@@ -1,6 +1,7 @@
 import HeaderPrincipal from "../layout/HeaderPrincipal";
 import Navegacion from "../layout/Navegacion";
 import Footer from "../layout/Footer";
+import BannerBeyond from "../layout/BannerBeyond";
 import CardFoto from "../components/CardFoto";
 import Space from "../components/Space";
 import { Button } from "flowbite-react";
@@ -17,7 +18,7 @@ const Home = () => {
       />
 
       <section className="bg-zinc-200 py-10">
-        <div className="w-10/12 m-auto grid grid-cols-1 justify-center items-center gap-5 lg:grid-cols-2">
+        <div className="w-10/12 m-auto grid grid-cols-1 justify-center items-center gap-5 lg:grid-cols-2 ">
           <div className="">
             <h2 className="uppercase  text-5xl font-bold  mb-5" >
               Here is your <span className="text-rose-600">next home </span>for when you travel...</h2>
@@ -111,6 +112,8 @@ const Home = () => {
 
 
       
+
+      <BannerBeyond />
 
 
       <Footer />

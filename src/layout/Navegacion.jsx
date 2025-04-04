@@ -39,8 +39,10 @@ function Navegacion() {
         </div> 
         <nav className="hidden  flex-col lg:flex lg:flex-row lg:justify-between lg:w-full *:py-2 lg:*:py-5 *:w-full" id="menu">
           <Link className="navegacion__link" to="/">Home</Link>
+          <Link className="navegacion__link" to="/advisory">Advisory</Link>
           <Link className="navegacion__link" to="/guests">Guests</Link>
           <Link className="navegacion__link" to="/propertyOwners">Property Owners</Link>
+          <Link className="navegacion__link" to="/partnerships">Partnerships</Link>
           <Link className="navegacion__link" to="/properties">Properties</Link>
           <Link className="navegacion__link" to="/aboutUs">About Us</Link>
 

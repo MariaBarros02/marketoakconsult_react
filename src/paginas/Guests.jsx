@@ -1,4 +1,5 @@
 import HeaderPrincipal from "../layout/HeaderPrincipal"
+import BannerBeyond from "../layout/BannerBeyond"
 import Space from "../components/Space"
 import Footer from "../layout/Footer"
 import { Carousel, Card } from "flowbite-react"
@@ -146,6 +147,9 @@ const Guests = () => {
 
       </section>
 
+
+
+      <BannerBeyond />
 
       <Footer />
     </>

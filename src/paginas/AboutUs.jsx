@@ -1,4 +1,5 @@
 import HeaderPrincipal from "../layout/HeaderPrincipal"
+import BannerBeyond from "../layout/BannerBeyond"
 import Footer from "../layout/Footer"
 import CardFoto from "../components/CardFoto"
 import { Blockquote, Card } from "flowbite-react"
@@ -87,6 +88,7 @@ const AboutUs = () => {
           />
         </div>
       </section>
+      <BannerBeyond />
       <Footer />
     </>
   )

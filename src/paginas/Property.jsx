@@ -3,6 +3,7 @@ import propiedades from "../data/propiedades";
 import HeaderPrincipal from "../layout/HeaderPrincipal";
 import Footer from "../layout/Footer"
 import Space from "../components/Space"
+import BannerBeyond from "../layout/BannerBeyond"
 import { Carousel, Button, Timeline, Breadcrumb } from "flowbite-react";
 import { HiArrowNarrowRight, HiHome } from "react-icons/hi";
 
